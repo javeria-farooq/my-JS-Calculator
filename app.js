@@ -16,5 +16,6 @@ function clr() {
 }
 
 function dlt() {
-    document.getElementById('inp').value = document.getElementById('inp').value.slice(0, document.getElementById('inp').value.length-1)
+    let dltBtn = document.getElementById('inp')
+    dltBtn.value = dltBtn.value.slice(0, dltBtn.value.length-1)
 }
