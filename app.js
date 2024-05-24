@@ -1,5 +1,4 @@
 function myFunction(b) {
-    console.log(b)
 
     document.getElementById('inp').value += b
 }
